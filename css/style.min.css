@@ -3057,7 +3057,7 @@ body {
   color: #830028;
   font-size: 20px;
   letter-spacing: 0.6px;
-  border-bottom: transparent;
+  border-bottom: 1px solid transparent;
   -webkit-transition: outline 0.5s, opacity 0.5s, border-bottom 0.5s;
   -o-transition: outline 0.5s, opacity 0.5s, border-bottom 0.5s;
   transition: outline 0.5s, opacity 0.5s, border-bottom 0.5s;
@@ -3562,9 +3562,9 @@ body {
 }
 
 .card-new__old-price:before {
+  content: "";
   border-bottom: 1px solid #B00035;
   position: absolute;
-  content: "";
   top: 0px;
   left: 1px;
   width: 78%;
@@ -3591,7 +3591,7 @@ body {
   transition: opacity 0.5s, color 0.5s, box-shadow 0.5s, background-color 0.5s;
   transition: opacity 0.5s, color 0.5s, box-shadow 0.5s, background-color 0.5s, -webkit-box-shadow 0.5s;
   opacity: 0;
-  max-width: 250px;
+  min-width: 250px;
 }
 
 .arrow-icon {
